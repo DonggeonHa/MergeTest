@@ -19,7 +19,9 @@
 			product_stock 				as stock,
 			product_created_date 		as createdDate,
 			product_status 				as status,
-			product_image 				as image
+			product_image 				as image,
+			product_sort 				as sort,
+			product_sub_title 			as subTitle
 		FROM toy_products
 		ORDER BY product_no DESC	
 	</select>

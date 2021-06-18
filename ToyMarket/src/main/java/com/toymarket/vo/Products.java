@@ -20,7 +20,25 @@ public class Products {
 	private Date createdDate;
 	private String status;
 	private String image;
+	private String sort;
+	private String subTitle;
 	
+	public String getSort() {
+		return sort;
+	}
+
+	public void setSort(String sort) {
+		this.sort = sort;
+	}
+
+	public String getSubTitle() {
+		return subTitle;
+	}
+
+	public void setSubTitle(String subTitle) {
+		this.subTitle = subTitle;
+	}
+
 	public Products() {}
 
 	public int getNo() {
