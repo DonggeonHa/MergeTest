@@ -99,29 +99,14 @@
 							<br/>
 							<br/>
 							<p class="text-center fs-1">Kurly's Check Point</p>
-							<img src="/image/test1.PNG">
+							<img src="/resources/images/test1.PNG">
 							<br/>
 							<br/>
 							<br/>
 							<br/>
 							<br/>
 							<br/>
-							<img src="/image/test2.PNG">
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<img src="/image/test3.PNG">
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<img src="/image/test4.PNG">
+							<img src="/resources/images/test2.PNG">
 							<br/>
 							<br/>
 							<br/>
@@ -129,19 +114,34 @@
 							<br/>
 							<br/>
 							<br/>
-							<br/>
-							<br/>
-							<br/>
-							<img src="/image/test5.PNG">
-							<br/>
+							<img src="/resources/images/test3.PNG">
 							<br/>
 							<br/>
 							<br/>
 							<br/>
 							<br/>
 							<br/>
-							<img src="/image/test6.PNG">
-							<img src="/image/test7.PNG">
+							<img src="/resources/images/test4.PNG">
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<img src="/resources/images/test5.PNG">
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<br/>
+							<img src="/resources/images/test6.PNG">
+							<img src="/resources/images/test7.PNG">
 
 
 						</div>
