@@ -1,6 +1,7 @@
 package com.toymarktet.dao;
 
 import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -20,11 +21,18 @@ private SqlSessionFactory sqlSessionFactory;
 		return instance; 
 	}
 	
-	public List<Products> getAllProducts() {
+	public List<Products> getAllProducts(Map<String, Object> param) {
 		SqlSession session = sqlSessionFactory.openSession();
-		List<Products> products = session.selectList("getAllProducts");
+		List<Products> products = session.selectList("products.getAllProducts", param);
 		session.close();
 		
 		return products;
+	}
+	
+	public int getTotalRows(Map<String, Object> param) {
+		SqlSession session = sqlSessionFactory.openSession();
+		int totalRows = session.selectOne("products.getTotalRows", param);
+		session.close();
+		return totalRows;
 	}
 }
