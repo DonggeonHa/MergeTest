@@ -50,34 +50,31 @@
 										<div class="card-body">
 											<h5 class="card-title">[${product.brand}] ${product.name}</h5>
 											<h4 class="bold">${product.price}원</h4>
-											<p class="card-text light"><font size="2" color="#A9A9A9">상품설명상품설명</font></p>
+											<p class="card-text light"><font size="2" color="#A9A9A9">${product.subTitle }</font></p>
 										</div>
 									</div>
 								</div>
 							</c:forEach>
 						</div>
-						<div class="mt-5">
-							<nav aria-label="Page navigation example" class="d-flex justify-content-center">
-								<ul class="pagination">
-									<li class="page-item">
-										<a class="page-link" href="#" aria-label="Previous">
-											<span aria-hidden="true">&laquo;</span>
-										</a>
-									</li>
-									<li class="page-item"><a class="page-link" href="#">1</a></li>
-									<li class="page-item"><a class="page-link" href="#">2</a></li>
-									<li class="page-item"><a class="page-link" href="#">3</a></li>
-									<li class="page-item"><a class="page-link" href="#">4</a></li>
-									<li class="page-item"><a class="page-link" href="#">5</a></li>
-									<li class="page-item">
-										<a class="page-link" href="#" aria-label="Next">
-											<span aria-hidden="true">&raquo;</span>
-										</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-						
+						<c:if test="${pagination.totalRows gt 0 }">
+							<div class="row mb-2">
+								<div class="col-12">
+									<ul class="pagination justify-content-center">
+										<li class="page-item ${pagination.pageNo le 1 ? 'disabled' : ''}">
+											<a class="page-link" href="list?page=${pagination.pageNo - 1 }">이전</a>
+										</li>
+										<c:forEach var="num" begin="${pagination.beginPage }" end="${pagination.endPage }">
+											<li class="page-item ${pagination.pageNo eq num ? 'active' : '' }">
+												<a class="page-link" href="list?page=${num }">${num }</a>
+											</li>
+										</c:forEach>
+										<li class="page-item ${pagination.pageNo ge pagination.totalPages ? 'disabled' : ''}">
+											<a class="page-link" href="list?page=${pagination.pageNo + 1 }">다음</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</c:if>
 					</div>
 				</div>
 			</div>
