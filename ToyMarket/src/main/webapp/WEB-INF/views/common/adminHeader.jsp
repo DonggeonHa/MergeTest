@@ -6,7 +6,7 @@
  			<ul class="navbar-nav me-auto mb-2 mb-md-0">
           			<li class="nav-item dropdown">
           				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            				<img alt="상품" src="image/box.png" style="weight : 80px; height : 80px">
+            				<img alt="상품" src="/resources/images/box.png" style="weight : 80px; height : 80px">
           				</a>
           				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             				<li><a class="dropdown-item" href="/adminproductmain">상품관리</a></li>
@@ -17,7 +17,7 @@
         			</li>
           			<li class="nav-item dropdown">
           				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            				<img alt="고객" src="image/user.png" style="weight : 80px; height : 80px">
+            				<img alt="고객" src="/resources/images/user.png" style="weight : 80px; height : 80px">
           				</a>
           				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             				<li><a class="dropdown-item" href="">고객관리</a></li>
@@ -30,7 +30,7 @@
  		</div>
  		<div class="navbar-nav " class="d-flex justify-content-center">
  			<a href="/adminmain">
-            	<img alt="" src="image/MarketKurly.png" style="weight : 400px; height : 100px">
+            	<img alt="" src="/resources/images/MarketKurly.png" style="weight : 400px; height : 100px">
             </a>
  		</div>
  		<div>
