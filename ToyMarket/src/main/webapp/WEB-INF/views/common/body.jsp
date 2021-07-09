@@ -41,6 +41,7 @@
 		</div>
 		<div>
 			<strong>소스트리 배우는 중!</strong>
+			<strong>소스트리 배우는 중22!</strong>
 		</div>
 	</div>
 	</div>
