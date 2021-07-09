@@ -39,6 +39,9 @@
 			<a href="#" class="thumbnail"> <img src="/resources/images/meat.png" alt="...">
 			</a>
 		</div>
+		<div>
+			<strong>소스트리 배우는 중!</strong>
+		</div>
 	</div>
 	</div>
 </main>
