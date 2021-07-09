@@ -35,6 +35,21 @@
 				<div class="carousel-item">
 					<img src="..." class="d-block w-100" alt="...">
 				</div>
+				<div class="carousel-item">
+					<img src="..." class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="..." class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="..." class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="..." class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="..." class="d-block w-100" alt="...">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -60,6 +75,7 @@
 		<div>
 			<strong>소스트리 배우는 중!</strong>
 			<strong>소스트리 배우는 중22!</strong>
+			<strong>소스트리 지우는중 222222</strong>
 		</div>
 	</div>
 	</div>
